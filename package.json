@@ -17,13 +17,13 @@
     "react-markdown": "^4.3.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
-    "rsuite": "^4.8.6"
+    "rsuite": "^4.8.9"
   },
   "scripts": {
-    "start": "REACT_APP_STAGE=dev react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "release": "REACT_APP_STAGE=prod react-scripts build",
+    "release": "REACT_APP_API_ENDPOINT=api.kajdreef.com react-scripts build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
